@@ -49,7 +49,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(570, 36);
+            this.textBox1.Location = new System.Drawing.Point(42, 23);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(477, 432);
@@ -57,7 +57,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(70, 36);
+            this.textBox2.Location = new System.Drawing.Point(567, 23);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(482, 432);
@@ -171,7 +171,7 @@
             "yi   ",
             "yo   ",
             "zu   "});
-            this.comboBox1.Location = new System.Drawing.Point(328, 548);
+            this.comboBox1.Location = new System.Drawing.Point(42, 526);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(224, 27);
             this.comboBox1.TabIndex = 1;
@@ -286,7 +286,7 @@
             "yi   ",
             "yo   ",
             "zu   "});
-            this.comboBox2.Location = new System.Drawing.Point(70, 548);
+            this.comboBox2.Location = new System.Drawing.Point(297, 526);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(222, 27);
             this.comboBox2.TabIndex = 2;

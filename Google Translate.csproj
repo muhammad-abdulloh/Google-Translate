@@ -6,6 +6,67 @@
     <RootNamespace>Google_Translate</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>Marcus-Roberto-Google-Play-Google-Translate (1).ico</ApplicationIcon>
+    <BaseOutputPath>C:\Users\PC shop\source\repos\Google Translate</BaseOutputPath>
+    <BaseIntermediateOutputPath>C:\Users\PC shop\source\repos\Google Translate\obj</BaseIntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <Authors>Muhammadabdulloh Komilov</Authors>
+    <Description>Created by Muhammadabdulloh Komilov. 
+This is open source product. 
+The application code in github username clevercoderr in Google translate.</Description>
+    <PackageIcon>depositphotos_459274936-stock-illustration-glowing-neon-line-translator-icon.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/clevercoderr/Google-Translate</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Marcus-Roberto-Google-Play-Google-Translate (1).ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Pictures\depositphotos_459274936-stock-illustration-glowing-neon-line-translator-icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Translate.v3" Version="1.55.0.2493" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="Created by Muhammadabdulloh Komilov" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="Created by Muhammadabdulloh Komilov" />
+  </Target>
 
 </Project>
