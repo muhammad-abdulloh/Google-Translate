@@ -62,7 +62,7 @@ The application code in github username clevercoderr in Google translate.</Descr
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="Created by Muhammadabdulloh Komilov" />
+    <Exec Command="Google_Translate" />
   </Target>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
